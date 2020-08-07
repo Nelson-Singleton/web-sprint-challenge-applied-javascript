@@ -1,0 +1,49 @@
+{"articles":
+{"javascript":[
+
+{"id":"b6fa0928-e83e-4c9c-8dee-b5bb400dcd34","headline":"ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects","authorPhoto":"https://tk-assets.lambdaschool.com/08d1372e-e393-47f1-ac44-fcb7d0baf0e2_sir.jpg","authorName":"SIR RUFF'N'STUFF"},
+
+{"id":"82b5049b-49a1-4795-86a2-4ff44ef266ac","headline":"Type Coercion: Why Does NaN !== NaN? and Other Strange Occurrences","authorPhoto":"https://tk-assets.lambdaschool.com/a9471235-ed71-4b11-ae15-5a4fa1151d30_bones.jpg","authorName":"BONES R. LIFE"},
+
+{"id":"05955f8e-195d-4414-9137-a7d191fb2729","headline":"When to Rest, When to Spread: Why There Are Two Meanings Behind '...'","authorPhoto":"https://tk-assets.lambdaschool.com/44260ce3-c8f0-4db8-bc1d-9877662fdf96_puppers.jpg","authorName":"PUPPER S. DOGGO"},
+
+{"id":"58312807-8cec-4352-8f0e-4db6511cb203","headline":"Typescript: Ten Things you Should Know Before Building Your Next Angular Application","authorPhoto":"https://tk-assets.lambdaschool.com/08d1372e-e393-47f1-ac44-fcb7d0baf0e2_sir.jpg","authorName":"SIR RUFF'N'STUFF"}
+
+]
+
+
+
+"bootstrap":[
+
+{"id":"b1ad8583-f69e-4b4c-8205-98f3bbabf940","headline":"Bootstrap 5: Get a Sneak Peak at all the New Features","authorPhoto":"https://tk-assets.lambdaschool.com/1891c758-b3f4-4ec7-9d88-590bf7c7ceb2_fido.jpg","authorName":"FIDO WALKSALOT"},
+
+{"id":"827c9c64-3bfb-468d-b8b8-09171893bfd3","headline":"UI Frameworks: A Comparison, Which Made Our List? (Hint: Bootstrap is on it)","authorPhoto":"https://tk-assets.lambdaschool.com/247dd20f-7e32-479b-a861-c3bbe85b5f0c_max.jpg","authorName":"MAX GOODBOYE"},
+
+{"id":"b268247a-d171-4423-93b4-ad4066b01d27","headline":"The Hottest New Bootstrap 4 Components Every Developer Needs to Know About","authorPhoto":"https://tk-assets.lambdaschool.com/247dd20f-7e32-479b-a861-c3bbe85b5f0c_max.jpg","authorName":"MAX GOODBOYE"}
+],
+
+
+
+"technology":[
+
+{"id":"c3a8928d-aa56-4ef7-b999-0a7f3471e1cb","headline":"AI: What Are the Ethical Ramifications of the Future?","authorPhoto":"https://tk-assets.lambdaschool.com/247dd20f-7e32-479b-a861-c3bbe85b5f0c_max.jpg","authorName":"MAX GOODBOYE"},
+
+{"id":"cbf6ee8a-db09-4bc4-8991-4227e0d73670","headline":"AR or VR: How We Will See the World Through a Digital Lense","authorPhoto":"https://tk-assets.lambdaschool.com/247dd20f-7e32-479b-a861-c3bbe85b5f0c_max.jpg","authorName":"MAX GOODBOYE"},
+
+{"id":"d7741fa7-b9a2-46c5-9ac6-f9eb45bf3b9b","headline":"Quantum Computing: Where we Are Now, and Where We Will Be Very Soon","authorPhoto":"https://tk-assets.lambdaschool.com/247dd20f-7e32-479b-a861-c3bbe85b5f0c_max.jpg","authorName":"MAX GOODBOYE"}
+],
+
+
+
+"jquery":[{"id":"75e32803-43f1-4f05-a0fa-84fbdd412f04","headline":"History of Javascript Libraries: from jQuery to React","authorPhoto":"https://tk-assets.lambdaschool.com/44260ce3-c8f0-4db8-bc1d-9877662fdf96_puppers.jpg","authorName":"PUPPER S. DOGGO"},
+
+{"id":"18637942-3615-4969-95b2-965a3569950c","headline":"jQuery Animations: When and Where to Use Them, and Not CSS","authorPhoto":"https://tk-assets.lambdaschool.com/1891c758-b3f4-4ec7-9d88-590bf7c7ceb2_fido.jpg","authorName":"FIDO WALKSALOT"},
+
+{"id":"7894e8ea-1298-4016-8d95-b16e639119b2","headline":"Why I Use jQuery in Every Application I Create and Why You Should Too","authorPhoto":"https://tk-assets.lambdaschool.com/1891c758-b3f4-4ec7-9d88-590bf7c7ceb2_fido.jpg","authorName":"FIDO WALKSALOT"}
+],
+
+
+
+"node":[{"id":"be943878-fa32-445d-86ca-9414df81393f","headline":"Node.js in 2018: Which Framework? Express, Sails, Hapi?","authorPhoto":"https://tk-assets.lambdaschool.com/08d1372e-e393-47f1-ac44-fcb7d0baf0e2_sir.jpg","authorName":"SIR RUFF'N'STUF"},
+
+{"id":"7a381975-867c-4ca6-b876-7a896c86b408","headline":"MongoDB: NoSQL vs. SQL, the Debate Continues..","authorPhoto":"https://tk-assets.lambdaschool.com/a9471235-ed71-4b11-ae15-5a4fa1151d30_bones.jpg","authorName":"BONES R. LIFE"}]}}
