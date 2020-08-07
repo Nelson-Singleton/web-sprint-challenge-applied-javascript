@@ -29,6 +29,7 @@ axios.get("https://lambda-times-api.herokuapp.com/articles")
 
         function articleCreator(anArticle){
             
+            //JS LOOP
             for(let i = 0; i < anArticle.javascript.length; i++){
             
             const articleCard = document.createElement('div')
@@ -36,14 +37,14 @@ axios.get("https://lambda-times-api.herokuapp.com/articles")
             const articleAuthor = document.createElement('div')
             const articleImgContainer = document.createElement('div')
             const articleImg = document.createElement('img')
-            const articleSpan = document.createElement('span')
+            const articleSpan = document.createElement('span')            
 
             articleCard.classList.add('card')
             articleHeadline.classList.add('headline')
             articleAuthor.classList.add('author')
             articleImgContainer.classList.add('img-container')
 
-            cardContainer.appendChild(articleCard)
+            cardContainer.appendChild(articleCard) //append to dom
             articleCard.appendChild(articleHeadline)
             articleCard.appendChild(articleAuthor)
             articleAuthor.appendChild(articleImgContainer)
@@ -54,14 +55,160 @@ axios.get("https://lambda-times-api.herokuapp.com/articles")
             articleImg.src = (anArticle.javascript[i].authorPhoto)
             articleSpan.textContent = (`By ${anArticle.javascript[i].authorName}`)
 
-            console.log(articleCard)
+            function clickMe(){
+                console.log(articleHeadline)
+            }
+            articleCard.addEventListener('click', clickMe)
 
-            //dont forget to add onclick
-            } //for loop ending         
+                      
+            } //for loop ending  
+
+            
+            //BOOTSTRAP LOOP
+            for(let i = 0; i < anArticle.bootstrap.length; i++){
+            
+                const articleCard = document.createElement('div')
+                const articleHeadline = document.createElement('div')
+                const articleAuthor = document.createElement('div')
+                const articleImgContainer = document.createElement('div')
+                const articleImg = document.createElement('img')
+                const articleSpan = document.createElement('span')            
+    
+                articleCard.classList.add('card')
+                articleHeadline.classList.add('headline')
+                articleAuthor.classList.add('author')
+                articleImgContainer.classList.add('img-container')
+    
+                cardContainer.appendChild(articleCard)
+                articleCard.appendChild(articleHeadline)
+                articleCard.appendChild(articleAuthor)
+                articleAuthor.appendChild(articleImgContainer)
+                articleAuthor.appendChild(articleSpan)
+                articleImgContainer.appendChild(articleImg)
+    
+                articleHeadline.textContent = (anArticle.bootstrap[i].headline)
+                articleImg.src = (anArticle.bootstrap[i].authorPhoto)
+                articleSpan.textContent = (`By ${anArticle.bootstrap[i].authorName}`)
+    
+                function clickMe(){
+                    console.log(articleHeadline)
+                }
+                articleCard.addEventListener('click', clickMe)
+    
+                          
+                } //for loop ending  
+
+            
+            //TECHNOLOGY LOOP
+            for(let i = 0; i < anArticle.technology.length; i++){
+            
+                    const articleCard = document.createElement('div')
+                    const articleHeadline = document.createElement('div')
+                    const articleAuthor = document.createElement('div')
+                    const articleImgContainer = document.createElement('div')
+                    const articleImg = document.createElement('img')
+                    const articleSpan = document.createElement('span')            
+        
+                    articleCard.classList.add('card')
+                    articleHeadline.classList.add('headline')
+                    articleAuthor.classList.add('author')
+                    articleImgContainer.classList.add('img-container')
+        
+                    cardContainer.appendChild(articleCard)
+                    articleCard.appendChild(articleHeadline)
+                    articleCard.appendChild(articleAuthor)
+                    articleAuthor.appendChild(articleImgContainer)
+                    articleAuthor.appendChild(articleSpan)
+                    articleImgContainer.appendChild(articleImg)
+        
+                    articleHeadline.textContent = (anArticle.technology[i].headline)
+                    articleImg.src = (anArticle.technology[i].authorPhoto)
+                    articleSpan.textContent = (`By ${anArticle.technology[i].authorName}`)
+        
+                    function clickMe(){
+                        console.log(articleHeadline)
+                    }
+                    articleCard.addEventListener('click', clickMe)
+        
+                             
+                    } //for loop ending  
+
+                
+            //JQUERYLOOP
+            for(let i = 0; i < anArticle.jquery.length; i++){
+            
+                const articleCard = document.createElement('div')
+                const articleHeadline = document.createElement('div')
+                const articleAuthor = document.createElement('div')
+                const articleImgContainer = document.createElement('div')
+                const articleImg = document.createElement('img')
+                const articleSpan = document.createElement('span')            
+    
+                articleCard.classList.add('card')
+                articleHeadline.classList.add('headline')
+                articleAuthor.classList.add('author')
+                articleImgContainer.classList.add('img-container')
+    
+                cardContainer.appendChild(articleCard)
+                articleCard.appendChild(articleHeadline)
+                articleCard.appendChild(articleAuthor)
+                articleAuthor.appendChild(articleImgContainer)
+                articleAuthor.appendChild(articleSpan)
+                articleImgContainer.appendChild(articleImg)
+    
+                articleHeadline.textContent = (anArticle.jquery[i].headline)
+                articleImg.src = (anArticle.jquery[i].authorPhoto)
+                articleSpan.textContent = (`By ${anArticle.jquery[i].authorName}`)
+    
+                function clickMe(){
+                    console.log(articleHeadline)
+                }
+                articleCard.addEventListener('click', clickMe)
+    
+                          
+                } //for loop ending  
+
+            
+            //NODE LOOP
+            for(let i = 0; i < anArticle.node.length; i++){
+            
+                    const articleCard = document.createElement('div')
+                    const articleHeadline = document.createElement('div')
+                    const articleAuthor = document.createElement('div')
+                    const articleImgContainer = document.createElement('div')
+                    const articleImg = document.createElement('img')
+                    const articleSpan = document.createElement('span')            
+        
+                    articleCard.classList.add('card')
+                    articleHeadline.classList.add('headline')
+                    articleAuthor.classList.add('author')
+                    articleImgContainer.classList.add('img-container')
+        
+                    cardContainer.appendChild(articleCard)
+                    articleCard.appendChild(articleHeadline)
+                    articleCard.appendChild(articleAuthor)
+                    articleAuthor.appendChild(articleImgContainer)
+                    articleAuthor.appendChild(articleSpan)
+                    articleImgContainer.appendChild(articleImg)
+        
+                    articleHeadline.textContent = (anArticle.node[i].headline)
+                    articleImg.src = (anArticle.node[i].authorPhoto)
+                    articleSpan.textContent = (`By ${anArticle.node[i].authorName}`)
+        
+                    function clickMe(){
+                        console.log(articleHeadline)
+                    }
+                    articleCard.addEventListener('click', clickMe)
+        
+                               
+                    } //for loop ending  
+            
+            
             
 
         }//function ending
-        console.log(articleCreator(articleList))
+        
+        articleCreator(articleList) //run it!
 
         
     })//.then ending
